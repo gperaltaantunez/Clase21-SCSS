@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap');
+
+$main-color: #7452a3;
+$secondary-color: #ffffff;
+$main-font:'Libre Baskerville';
+$secondary-font:'Source Sans Pro';
+$font-main-color: #99f7e2;
+$font-secondary-color: #7452a3;
+
+* {
+    margin: 0;
+}
+
+.nav-icons {
+    width: 12px;
+    height: 153px;
+    object-fit: contain;
+    position: fixed;
+    right: 3.3%;
+    top: 43%;
+}
+
+.section-1 {
+    height: 1024px;
+    background-color: $main-color;
+    font-family: $main-font;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: $main-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10.4% 0 10.4%;
+}
+
+.navbar-brand {
+    color: $font-main-color;
+    font-family: $secondary-font;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 3.9%;
+}
+
+.navbar-options {
+    margin-top: 3.9%;
+}
+
+.section-1-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 57%;
+    margin-left: 10.4%;
+}
+
+.section-1-main h1 {
+    font-family: $main-font;
+    font-size: 64px;
+    line-height: 1.5;
+    color: $font-main-color;
+    margin-bottom: 2.9%;
+}
+
+.section-1-main p {
+    font-family: $secondary-font;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.mouse-icon{
+    text-align: center;
+    margin-bottom: 7.2%;
+}
+
+.section-2 {
+    height: 1440px;
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-2-image {
+    width: 51%;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+}
+
+.section-2-image img {
+    width: 100%;
+}
+
+.section-2-main {
+    width: 705px;
+    height: 734px;
+    background-color: #f5f3f8;
+}
+
+.section-2-main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 14% 10.4% 0 13.8%;
+    position: relative;
+}
+
+.section-2-main h3 {
+    font-family: $main-font;
+    color: $font-secondary-color;
+    font-size: 46px;
+    line-height: 1.5;
+}
+
+.section-2-main p {
+    font-family: $secondary-font;
+    color: #060606;
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 3%;
+}
+
+.section-2-main a {
+    font-family: Helvetica;
+    color: #67b3ff;
+    font-size: 18px;
+    line-height: 2;
+    text-transform: uppercase;
+    margin-top: 5.4%;
+}
