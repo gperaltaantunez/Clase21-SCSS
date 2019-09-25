@@ -1,107 +1,92 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap");
-* {
+body {
   margin: 0; }
-
-.nav-icons {
-  width: 12px;
-  height: 153px;
-  object-fit: contain;
-  position: fixed;
-  right: 3.3%;
-  top: 43%; }
-
-.section-1 {
-  height: 1024px;
-  background-color: #7452a3;
-  font-family: "Libre Baskerville";
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
-
-nav {
-  background-color: #7452a3;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10.4% 0 10.4%; }
-
-.navbar-brand {
-  color: #99f7e2;
-  font-family: "Source Sans Pro";
-  font-size: 36px;
-  font-weight: 600;
-  margin-top: 3.9%; }
-
-.navbar-options {
-  margin-top: 3.9%; }
-
-.section-1-main {
-  display: flex;
-  flex-wrap: wrap;
-  width: 57%;
-  margin-left: 10.4%; }
-
-.section-1-main h1 {
-  font-family: "Libre Baskerville";
-  font-size: 64px;
-  line-height: 1.5;
-  color: #99f7e2;
-  margin-bottom: 2.9%; }
-
-.section-1-main p {
-  font-family: "Source Sans Pro";
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 2;
-  color: #ffffff; }
-
-.mouse-icon {
-  text-align: center;
-  margin-bottom: 7.2%; }
-
-.section-2 {
-  height: 1440px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center; }
-
-.section-2-image {
-  width: 51%;
-  object-fit: contain;
-  position: absolute;
-  left: 0; }
-
-.section-2-image img {
-  width: 100%; }
-
-.section-2-main {
-  width: 705px;
-  height: 734px;
-  background-color: #f5f3f8; }
-
-.section-2-main-content {
-  display: flex;
-  flex-direction: column;
-  padding: 14% 10.4% 0 13.8%;
-  position: relative; }
-
-.section-2-main h3 {
-  font-family: "Libre Baskerville";
-  color: #7452a3;
-  font-size: 46px;
-  line-height: 1.5; }
-
-.section-2-main p {
-  font-family: "Source Sans Pro";
-  color: #060606;
-  font-size: 18px;
-  line-height: 2;
-  margin-top: 3%; }
-
-.section-2-main a {
-  font-family: Helvetica;
-  color: #67b3ff;
-  font-size: 18px;
-  line-height: 2;
-  text-transform: uppercase;
-  margin-top: 5.4%; }
+  body .nav-icons {
+    width: 12px;
+    height: 153px;
+    object-fit: contain;
+    position: fixed;
+    right: 3.3%;
+    top: 43%; }
+  body .section-1 {
+    height: 1024px;
+    background-color: #7452a3;
+    font-family: "Libre Baskerville";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    body .section-1 .navbar {
+      background-color: #7452a3;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10.4% 0 10.4%; }
+      body .section-1 .navbar .navbar-brand {
+        color: #99f7e2;
+        font-family: "Source Sans Pro";
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: 3.9%; }
+      body .section-1 .navbar .navbar-options {
+        margin-top: 3.9%; }
+    body .section-1 .section-1-main {
+      display: flex;
+      flex-wrap: wrap;
+      width: 57%;
+      margin-left: 10.4%; }
+      body .section-1 .section-1-main h1 {
+        font-family: "Libre Baskerville";
+        font-size: 64px;
+        line-height: 1.5;
+        color: #99f7e2;
+        margin-bottom: 2.9%; }
+      body .section-1 .section-1-main p {
+        font-family: "Source Sans Pro";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 2;
+        color: #ffffff; }
+    body .section-1 .mouse-icon {
+      text-align: center;
+      margin-bottom: 7.2%; }
+  body .section-2 {
+    height: 1440px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    body .section-2 .section-2-image {
+      width: 51%;
+      object-fit: contain;
+      position: absolute;
+      left: 0; }
+      body .section-2 .section-2-image img {
+        width: 100%; }
+    body .section-2 .section-2-main {
+      display: flex;
+      width: 705px;
+      height: 734px;
+      background-color: #f5f3f8; }
+      body .section-2 .section-2-main .section-2-main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0% 10.4% 0 13.8%;
+        position: relative; }
+        body .section-2 .section-2-main .section-2-main-content h3 {
+          font-family: "Libre Baskerville";
+          color: #7452a3;
+          font-size: 46px;
+          line-height: 1.5; }
+        body .section-2 .section-2-main .section-2-main-content p {
+          font-family: "Source Sans Pro";
+          color: #060606;
+          font-size: 18px;
+          line-height: 2;
+          margin-top: 3%; }
+        body .section-2 .section-2-main .section-2-main-content a {
+          font-family: Helvetica;
+          color: #67b3ff;
+          font-size: 18px;
+          line-height: 2;
+          text-transform: uppercase;
+          margin-top: 5.4%; }
